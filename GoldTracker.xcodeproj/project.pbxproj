@@ -11,7 +11,37 @@
 		88B4E7E72F7234B0005324D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B4E7E62F7234B0005324D4 /* ContentView.swift */; };
 		88B4E7E92F7234B1005324D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88B4E7E82F7234B1005324D4 /* Assets.xcassets */; };
 		88B4E7EC2F7234B1005324D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88B4E7EB2F7234B1005324D4 /* Preview Assets.xcassets */; };
+		88B4E7FA2F7234D9005324D4 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B4E7F92F7234D9005324D4 /* WidgetKit.framework */; };
+		88B4E7FC2F7234D9005324D4 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B4E7FB2F7234D9005324D4 /* SwiftUI.framework */; };
+		88B4E7FF2F7234D9005324D4 /* GoldWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B4E7FE2F7234D9005324D4 /* GoldWidgetBundle.swift */; };
+		88B4E8012F7234D9005324D4 /* GoldWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B4E8002F7234D9005324D4 /* GoldWidget.swift */; };
+		88B4E8032F7234DA005324D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88B4E8022F7234DA005324D4 /* Assets.xcassets */; };
+		88B4E8082F7234DA005324D4 /* GoldWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 88B4E7F72F7234D9005324D4 /* GoldWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88B4E8062F7234DA005324D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88B4E7D92F7234B0005324D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88B4E7F62F7234D9005324D4;
+			remoteInfo = GoldWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		88B4E80C2F7234DA005324D4 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				88B4E8082F7234DA005324D4 /* GoldWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		88B4E7E12F7234B0005324D4 /* GoldTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoldTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -20,6 +50,14 @@
 		88B4E7E82F7234B1005324D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88B4E7EB2F7234B1005324D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		88B4E7ED2F7234B1005324D4 /* GoldTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GoldTracker.entitlements; sourceTree = "<group>"; };
+		88B4E7F72F7234D9005324D4 /* GoldWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = GoldWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B4E7F92F7234D9005324D4 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		88B4E7FB2F7234D9005324D4 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		88B4E7FE2F7234D9005324D4 /* GoldWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldWidgetBundle.swift; sourceTree = "<group>"; };
+		88B4E8002F7234D9005324D4 /* GoldWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldWidget.swift; sourceTree = "<group>"; };
+		88B4E8022F7234DA005324D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88B4E8042F7234DA005324D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88B4E8052F7234DA005324D4 /* GoldWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GoldWidget.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +68,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		88B4E7F42F7234D9005324D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B4E7FC2F7234D9005324D4 /* SwiftUI.framework in Frameworks */,
+				88B4E7FA2F7234D9005324D4 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -37,6 +84,8 @@
 			isa = PBXGroup;
 			children = (
 				88B4E7E32F7234B0005324D4 /* GoldTracker */,
+				88B4E7FD2F7234D9005324D4 /* GoldWidget */,
+				88B4E7F82F7234D9005324D4 /* Frameworks */,
 				88B4E7E22F7234B0005324D4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				88B4E7E12F7234B0005324D4 /* GoldTracker.app */,
+				88B4E7F72F7234D9005324D4 /* GoldWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,6 +119,27 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		88B4E7F82F7234D9005324D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88B4E7F92F7234D9005324D4 /* WidgetKit.framework */,
+				88B4E7FB2F7234D9005324D4 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88B4E7FD2F7234D9005324D4 /* GoldWidget */ = {
+			isa = PBXGroup;
+			children = (
+				88B4E7FE2F7234D9005324D4 /* GoldWidgetBundle.swift */,
+				88B4E8002F7234D9005324D4 /* GoldWidget.swift */,
+				88B4E8022F7234DA005324D4 /* Assets.xcassets */,
+				88B4E8042F7234DA005324D4 /* Info.plist */,
+				88B4E8052F7234DA005324D4 /* GoldWidget.entitlements */,
+			);
+			path = GoldWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -79,15 +150,34 @@
 				88B4E7DD2F7234B0005324D4 /* Sources */,
 				88B4E7DE2F7234B0005324D4 /* Frameworks */,
 				88B4E7DF2F7234B0005324D4 /* Resources */,
+				88B4E80C2F7234DA005324D4 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				88B4E8072F7234DA005324D4 /* PBXTargetDependency */,
 			);
 			name = GoldTracker;
 			productName = GoldTracker;
 			productReference = 88B4E7E12F7234B0005324D4 /* GoldTracker.app */;
 			productType = "com.apple.product-type.application";
+		};
+		88B4E7F62F7234D9005324D4 /* GoldWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88B4E8092F7234DA005324D4 /* Build configuration list for PBXNativeTarget "GoldWidgetExtension" */;
+			buildPhases = (
+				88B4E7F32F7234D9005324D4 /* Sources */,
+				88B4E7F42F7234D9005324D4 /* Frameworks */,
+				88B4E7F52F7234D9005324D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoldWidgetExtension;
+			productName = GoldWidgetExtension;
+			productReference = 88B4E7F72F7234D9005324D4 /* GoldWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,6 +190,9 @@
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					88B4E7E02F7234B0005324D4 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					88B4E7F62F7234D9005324D4 = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
@@ -118,6 +211,7 @@
 			projectRoot = "";
 			targets = (
 				88B4E7E02F7234B0005324D4 /* GoldTracker */,
+				88B4E7F62F7234D9005324D4 /* GoldWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -129,6 +223,14 @@
 			files = (
 				88B4E7EC2F7234B1005324D4 /* Preview Assets.xcassets in Resources */,
 				88B4E7E92F7234B1005324D4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B4E7F52F7234D9005324D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B4E8032F7234DA005324D4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +246,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		88B4E7F32F7234D9005324D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B4E7FF2F7234D9005324D4 /* GoldWidgetBundle.swift in Sources */,
+				88B4E8012F7234D9005324D4 /* GoldWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88B4E8072F7234DA005324D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88B4E7F62F7234D9005324D4 /* GoldWidgetExtension */;
+			targetProxy = 88B4E8062F7234DA005324D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		88B4E7EE2F7234B1005324D4 /* Debug */ = {
@@ -268,6 +387,7 @@
 		88B4E7F12F7234B1005324D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = GoldTracker/GoldTracker.entitlements;
@@ -295,6 +415,7 @@
 		88B4E7F22F7234B1005324D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = GoldTracker/GoldTracker.entitlements;
@@ -319,6 +440,62 @@
 			};
 			name = Release;
 		};
+		88B4E80A2F7234DA005324D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = GoldWidget/GoldWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WKRG8RG475;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GoldWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GoldWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clintlin.GoldTracker.GoldWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		88B4E80B2F7234DA005324D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = GoldWidget/GoldWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WKRG8RG475;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GoldWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GoldWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clintlin.GoldTracker.GoldWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -336,6 +513,15 @@
 			buildConfigurations = (
 				88B4E7F12F7234B1005324D4 /* Debug */,
 				88B4E7F22F7234B1005324D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88B4E8092F7234DA005324D4 /* Build configuration list for PBXNativeTarget "GoldWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88B4E80A2F7234DA005324D4 /* Debug */,
+				88B4E80B2F7234DA005324D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
